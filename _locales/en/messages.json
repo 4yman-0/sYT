@@ -1,0 +1,35 @@
+{
+    "extensionDescription": {
+        "message": "Superior YouTube",
+        "description": "Better/Enhanced/Upgraded YouTube"
+    },
+    "general": {
+    	"message": "General"
+    },
+    "shorts": {
+    	"message": "Shorts",
+    	"description": "YouTube Shorts"
+    },
+    "nukeAllShorts": {
+    	"message": "Nuke all Shorts",
+    	"description": "Shorts means YouTube Shorts"
+    },
+    "experiments": {
+        "message": "Experiments"
+    },
+    "flags": {
+        "message": "Flags"
+    },
+    "newWatchGrid": {
+        "message": "New watch grid"
+    },
+    "appearance": {
+        "message": "Appearance"
+    },
+    "theme": {
+        "message": "Theme"
+    },
+    "colorScheme": {
+        "message": "Color scheme"
+    }
+}

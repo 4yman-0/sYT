@@ -1,0 +1,70 @@
+/* TODO */
+
+body {
+    min-height: 400px;
+    min-width: 300px;
+}
+
+li {
+    display: block;
+}
+
+input {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.description {
+    margin-bottom: 2rem;
+}
+
+main {
+    padding: 1rem 0;
+    padding-bottom: 0;
+}
+
+.category {
+    border-top: 2px solid var(--border);
+    margin-bottom: .6rem;
+}
+
+.category__header {
+    font-size: 1.4rem;
+    margin-bottom: .4rem;
+}
+
+.section {
+    border-top: 1px solid var(--border);
+    margin-bottom: .4rem;
+}
+
+.section__header {
+    margin-bottom: .2rem;
+    font-size: 1.2rem;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option__input {
+    background: var(--bg-2);
+    color: var(--fg-1);
+}
+
+.option__input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+}
+
+select.option__input {
+    font-size: 1rem;
+}

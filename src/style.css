@@ -1,0 +1,13 @@
+:root {
+    --fg-1: #eee;
+    --fg-2: #bbb;
+    --bg-1: #111;
+    --bg-2: #111;
+    --border: grey;
+}
+
+body {
+    color: var(--fg-1);
+    background: var(--bg-1);
+    margin: 1rem;
+}

@@ -1,0 +1,55 @@
+{
+	"name": "sYT",
+	"version": "0.2",
+	"description": "__MSG_extensionDescription__",
+
+
+	"manifest_version": 3,
+	"default_locale": "en",
+	"icons": {
+		"128": "res/icons/128.png",
+		"48": "res/icons/48.png",
+		"32": "res/icons/32.png"
+	},
+	"background": {
+		"service_worker": "bg.js"
+	},
+	"action": {
+		"default_title": "sYT",
+		"default_icon": {
+			"32": "res/icons/32.png"
+		},
+		"default_popup": "options/options.html"
+	},
+	"options_page": "options/options.html",
+	"options_ui": {
+		"page": "options/options.html"
+	},
+	"content_scripts": [{
+		"all_frames": true,
+		"matches": ["https://www.youtube.com/*"],
+		"exclude_matches": [
+			"https://www.youtube.com/audiolibrary/*",
+			"https://www.youtube.com/tv*"
+		],
+		"css": [
+			"content/content.css"
+		],
+		"js": [
+			"content/main.js",
+			"content/appearance.js",
+			"content/experiments.js",
+			"content/general.js",
+			"content/content.js"
+		],
+		"run_at": "document_start"
+	}],
+	"host_permissions":[ "https://www.youtube.com/"],
+	"permissions": [
+		"storage",
+		"tabs"
+	],
+	"optional_permissions": [
+		"downloads"
+	]
+}

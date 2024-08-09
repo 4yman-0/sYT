@@ -1,1 +1,4 @@
 tmp/
+build/
+src/manifest.json
+src/_locales

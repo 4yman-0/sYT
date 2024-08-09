@@ -1,0 +1,24 @@
+{
+    "general": {
+        "shorts": {
+            "nukeAllShorts": {
+                "type": "checkbox"
+            }
+        }
+    },
+    "appearance": {
+        "theme": {
+            "colorScheme": {
+                "type": "select",
+                "options": [ "default", "light", "dark" ]
+            }
+        }
+    },
+    "experiments": {
+        "flags": {
+            "newWatchGrid": {
+                "type": "checkbox"
+            }
+        }
+    }
+}
